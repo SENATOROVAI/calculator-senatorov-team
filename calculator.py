@@ -1,8 +1,6 @@
 while True:
     try:
-        num = float(input('Введите число: '))
-        operator = input('Введите операцию: ')
-        num2 = float(input('Введите число: '))
+        num, operator, num2 = get_input_data()
         if operator == '+':
             print('Результат операции:', add(num, num2))
         elif operator == '-':
