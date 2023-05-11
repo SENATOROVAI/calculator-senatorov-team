@@ -1,4 +1,7 @@
 # ключевое calc
 
 def get_input_data():
-    # инпуты
+    #num = 
+    #operator =
+    #num2 =
+#     вернуть
