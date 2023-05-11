@@ -2,7 +2,6 @@
 
 # ключевое True:
     # ключевое слово:
-        num, operator, num2 = get_input_data()
         if operator == '+':
             print('Результат операции:', add(num, num2))
         elif operator == '-':
