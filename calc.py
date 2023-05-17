@@ -4,7 +4,6 @@ from subtraction import sub
 from multiplication import mult
 
 while True:
- main
     try:
         num, operator, num2 = get_input_data()
         if operator == '+':
