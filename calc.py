@@ -4,15 +4,35 @@ from subtraction import sub
 from multiplication import mult
 
 while True:
-    # ключевое слово:
-#          переменная, переменная, переменная = фукнция()
+ main
+    try:
+        num, operator, num2 = get_input_data()
         if operator == '+':
-            print('Результат операции:', add(?))
+            print('Результат операции:', add(num, num2))
         elif operator == '-':
-            print('Результат операции:', sub(?))
+            print('Результат операции:', sub(num, num2))
         elif operator == '*':
-            print('Результат операции:', mult(?))
+            print('Результат операции:', mult(num, num2))
         else:
             print('Ошибка! Некорректный оператор.')
+        
+    except ValueError:
+        print('Ошибка, введите правильное значение')
+
+
+
+
+    # ключевое слово:
+        
+#          переменная, переменная, переменная = фукнция() 
+        if operator == '+':
+            print('Результат операции:', add())
+        elif operator == '-':
+            print('Результат операции:', sub())
+        elif operator == '*':
+            print('Результат операции:', mult())
+        elif opertor == '/':
+            print('Результат операции:', ())
     #ключевое слово  ValueError:
-        print(?)
+        
+ main
