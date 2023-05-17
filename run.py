@@ -1,7 +1,7 @@
-# ключевое calc
+import calc
 
 def get_input_data():
-    #num = 
-    #operator =
-    #num2 =
-#     вернуть
+    num = float(input(":>"))
+    operator = input(":>")
+    num2 = float(input(":>"))
+    return num, operator, num2
